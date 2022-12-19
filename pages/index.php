@@ -87,15 +87,6 @@
           <div class="catalog__header">Каталог кроссовок</div>
           <div class="catalog__body">
             <div class="catalog__filters">
-              <div class="filters__type filter">
-                <div class="filter__header">Обувь</div>
-                <div class="filter__body">
-                  <a href="#" class="filter__link"> Зимняя обувь </a>
-                  <a href="#" class="filter__link"> Кроссовки </a>
-                  <a href="#" class="filter__link"> Кеды </a>
-                  <a href="#" class="filter__link"> Ботинки </a>
-                </div>
-              </div>
               <div class="filter__type filter sex">
                 <div class="filter__header">
                     Пол
@@ -129,41 +120,6 @@
                 </label>
                   <label class="filter__checkbox" for="vans">
                     <input data-brand="vans" checked="checked" type="checkbox" id="vans" />Vans
-                </label>
-                </div>
-              </div>
-              <div class="filters__type filter">
-                <div class="filter__header">Размер</div>
-                <div class="filter__body">
-                  <label class="filter__checkbox" for="36">
-                    <input type="checkbox" id="36" />36
-                </label>
-                  <label class="filter__checkbox" for="37">
-                    <input type="checkbox" id="37" />37
-                </label>
-                  <label class="filter__checkbox" for="38">
-                    <input type="checkbox" id="38" />38
-                </label>
-                  <label class="filter__checkbox" for="39">
-                    <input type="checkbox" id="39" />39
-                </label>
-                  <label class="filter__checkbox" for="40">
-                    <input type="checkbox" id="40" />40
-                </label>
-                  <label class="filter__checkbox" for="41">
-                    <input type="checkbox" id="41" />41
-                </label>
-                  <label class="filter__checkbox" for="42">
-                    <input type="checkbox" id="42" />42
-                </label>
-                  <label class="filter__checkbox" for="43">
-                    <input type="checkbox" id="43" />43
-                </label>
-                  <label class="filter__checkbox" for="44">
-                    <input type="checkbox" id="44" />44
-                </label>
-                  <label class="filter__checkbox" for="45">
-                    <input type="checkbox" id="45" />45
                 </label>
                 </div>
               </div>

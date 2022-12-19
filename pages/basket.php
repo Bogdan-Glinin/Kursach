@@ -97,22 +97,26 @@
                     <div class="error">
                         Корзина пустая
                     </div>
-                    <?php }}?>
+                    <?php }
+                else{
+                    ?>
+                    </div>
 
-        </div>
+<div class="basket__price">
+    Общая стоимость: 
+    <?php 
+        echo $price;  
+    ?>
+    руб
+</div>
+<form action="/php/complite_purchase.php">
+<button action="submit" class="basket__complite">
+    Оформить заказ
+</button>
+</form>
+                <?php }}?>
 
-        <div class="basket__price">
-            Общая стоимость: 
-            <?php 
-                echo $price;  
-            ?>
-            руб
-        </div>
-        <form action="/php/complite_purchase.php">
-        <button action="submit" class="basket__complite">
-            Оформить заказ
-        </button>
-        </form>
+        
             </div>
             </div>
         
